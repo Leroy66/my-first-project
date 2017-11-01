@@ -17,10 +17,8 @@ public class DBUtil {
 			// 2.获取数据库连接
 			conn = DriverManager.getConnection(URL, USER, PASSSWORD);
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
